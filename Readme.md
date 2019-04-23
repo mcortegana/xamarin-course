@@ -42,7 +42,7 @@ Cada plataforma de aplicación (Android y iOS) tiene su propio modelo de aplicac
 
 La clase base y de la que heredan todas las demás clases en *Xamarin* es la clase:
 
- ***BindeableObject*** donde se encuentran el *Sistema de propiedades, Enlazables y Notificaciones*.
+ ***BindeableObject*** donde se encuentran el *Sistema de propiedades enlazables y Notificaciones*.
 
 ***Element***, es la clase base de los elementos jerárquicos.
 
@@ -50,3 +50,8 @@ La clase base y de la que heredan todas las demás clases en *Xamarin* es la cla
 
 ***Cell***, Clase base para todas las celdas de las listas.
 
+***View***, Clase base para todos los controladores.
+
+***Page***, Clase base para todas las  páginas o pantallas.
+
+***Layout<T>***, Clase base para todos los elementos de distribución en pantalla y paneles contenedores.
